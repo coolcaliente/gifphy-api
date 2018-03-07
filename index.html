@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cartoon Giphy Search</title>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Stylesheet -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- div container -->
+    <div class="container">
+
+        <!-- title area -->
+        <div class="row pt-5">
+            <div class="col">
+                <h1>Cartoon Giphy Searchy</h1>
+            </div>
+        </div>
+        <!-- /title area -->
+
+        <hr>
+
+        <!-- button area -->
+        <div class="row">
+            <div id="button-area" class="col">
+            </div>
+        </div>
+        <!-- /button area -->
+
+        <hr>
+
+
+        <div class="row">
+
+            <!-- results area -->
+            <div id="results-area" class="col-8">
+            </div>
+            <!-- /results area -->
+
+            <!-- create new button area -->
+            <div id="addButton-area" class="col-4">
+                <form id="cartoon-form">
+                    <label for="user-input">Add a cartoon</label>
+                    <input type="text" id="user-input">
+                    <br>
+
+                    <!-- Button triggers new movie to be added -->
+                    <input id="add-cartoon" type="submit" value="Add a Cartoon" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+        <!-- /create new button area -->
+
+    </div>
+
+
+
+
+    <script src="./assets/javascript/app.js"></script>
+</body>
+
+</html>
